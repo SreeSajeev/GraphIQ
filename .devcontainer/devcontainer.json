@@ -1,0 +1,8 @@
+{
+  "name": "GraphIQ Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [8000, 7687, 7474],
+  "postCreateCommand": "pip install -r requirements.txt"
+}
